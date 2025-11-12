@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'no build step'"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5"
+  }
+}
+
