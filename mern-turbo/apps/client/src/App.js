@@ -4,7 +4,7 @@ function App() {
   const [msg, setMsg] = useState("Loading...");
 
   useEffect(() => {
-    fetch("http://localhost:5000/")
+    fetch("http://13.232.33.225:5000/")
       .then(res => res.text())
       .then(setMsg)
       .catch(() => setMsg("Backend not reachable"));
