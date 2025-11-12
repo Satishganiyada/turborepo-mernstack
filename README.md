@@ -15,5 +15,6 @@
 ### Frontend: http://<EC2-Public-IP>:3000
 ### Backend: http://<EC2-Public-IP>:5000
 
+### So turbo run dev is  → runs npm run dev inside both apps/client and apps/server simultaneously.
 
 
